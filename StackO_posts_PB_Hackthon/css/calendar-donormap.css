@@ -1,0 +1,48 @@
+text.month-name,
+text.calendar-donormap-legend-text,
+text.day-initial {
+  font-size: 20px;
+  fill: #aaaaaa;
+  font-family: Helvetica, arial, 'Open Sans', sans-serif
+}
+text.month-name-left,
+text.calendar-donormap-legend-text-left,
+text.day-initial-left {
+  font-size: 10px;
+  fill: #aaaaaa;
+  font-family: Helvetica, arial, 'Open Sans', sans-serif
+}
+.day-cell {
+  border: 1px solid gray;
+}
+rect.day-cell:hover {
+  stroke: #555555;
+  stroke-width: 1px;
+}
+.day-cell-tooltip {
+  position: absolute;
+  z-index: 9999;
+  padding: 5px 9px;
+  color: #bbbbbb;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 3px;
+  text-align: center;
+}
+.day-cell-tooltip > span {
+  font-family: Helvetica, arial, 'Open Sans', sans-serif
+}
+.calendar-donormap {
+  box-sizing: initial;
+}
+   .RdYlGn .q0-11{fill:rgb(165,0,38)}
+    .RdYlGn .q1-{fill:rgb(215,48,39)}
+    .RdYlGn .q2-11{fill:rgb(244,109,67)}
+    .RdYlGn .q3-11{fill:rgb(253,174,97)}
+    .RdYlGn .q4-11{fill:rgb(254,224,139)}
+    .RdYlGn .q5-11{fill:rgb(255,255,191)}
+    .RdYlGn .q6-11{fill:rgb(217,239,139)}
+    .RdYlGn .q7-11{fill:rgb(166,217,106)}
+    .RdYlGn .q8-11{fill:rgb(102,189,99)}
+    .RdYlGn .q9-11{fill:rgb(26,152,80)}
+    .RdYlGn .q10-11{fill:rgb(0,104,55)}

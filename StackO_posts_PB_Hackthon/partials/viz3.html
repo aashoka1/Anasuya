@@ -1,0 +1,26 @@
+<div>
+
+    <div class="calendar-donormap">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name(s)</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+
+                </tr>
+            </thead>
+            <tbody ng-repeat="data in chart_Data">
+                <tr>
+                    <td>{{ $index + 1 }}</td>
+                    <td>{{ data.Name }}</td>
+                    <td>{{ data.Amount }}</td>
+                    <td>{{ data.Date }}</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
